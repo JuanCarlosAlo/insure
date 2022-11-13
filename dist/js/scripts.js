@@ -15,7 +15,7 @@ menuIcon.addEventListener('click' , () => {
 });
 
 window.addEventListener('resize', () => {
-    if (menu.classList.contains('menu--show') && window.matchMedia("(min-with: 1024px)").matches) {
+    if (window.matchMedia("(min-with: 1024px)").matches) {
 
         menu.classList.remove('menu--show');
         menu.classList.add('menu');
@@ -23,11 +23,13 @@ window.addEventListener('resize', () => {
 });
 
 menuIcon.addEventListener('click', event => {
-    if (menu.classList.contains('menu--show') === 'assets/images/icon-close.svg') {
+
+    if (event.target.dataset.image === 'hamburger') {
       event.target.src = 'assets/images/icon-close.svg';
-      event.target.dataset.image = 'assets/images/icon-close.svg';
+      event.target.dataset.image = 'close';
+
     } else {
       event.target.src = 'assets/images/icon-hamburger.svg';
-      event.target.dataset.image = 'assets/images/icon-hamburger.svg';
+      event.target.dataset.image = 'hamburger';
     }
   });

@@ -473,21 +473,21 @@ body {
   font-weight: 600;
   display: block;
   height: 3rem;
-  padding-top: 1rem;
+  padding-top: 0.75rem;
   border: solid var(--light-gray);
-}
-@media (hover: hover) {
-  .view-button:hover {
-    border: none;
-    color: var(--light-gray);
-    background-color: var(--dark-violet);
-  }
 }
 @media screen and (min-width: 1024px) {
   .view-button {
     display: block;
-    padding: 1rem 2rem;
+    padding: 0.75rem 2rem;
     border: solid var(--very-dark-violet);
+  }
+}
+@media screen and (min-width: 1024px) and (hover: hover) {
+  .view-button:hover {
+    border: none;
+    color: var(--light-gray);
+    background-color: var(--dark-violet);
   }
 }
 
@@ -689,6 +689,21 @@ body {
 
 .menu {
   display: none;
+}
+@media screen and (min-width: 1024px) {
+  .menu {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background: none;
+    color: black;
+    width: 500px;
+    padding: 0;
+    top: 0;
+    left: 0;
+  }
 }
 .menu__item {
   display: block;
