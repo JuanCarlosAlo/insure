@@ -1,0 +1,52 @@
+@use '../mixins/responsive.scss' as *;
+@use '../mixins/hover.scss' as *;
+@use '../config/variables.scss' as *;
+
+.title{
+    font-family: 'DM Serif Display', serif;
+    @include responsive(laptop){
+        text-align: left;
+    }
+}
+
+.header{
+    &__title{
+        font-weight: 400;
+        font-size: 3rem;
+        @include responsive(laptop){
+            font-size: 5rem;
+            margin: 0;
+        }
+    }
+}
+
+.lists{
+
+    &__title{
+        font-weight: 400;
+        font-size: 3rem;
+        @include responsive(laptop){
+            text-align: left;
+        }
+    
+    }
+}
+
+.list-title{
+    font-weight: 400;
+    font-size: 1.5em;
+    @include responsive(laptop){
+        text-align: left;
+    }
+
+}
+.title-background{
+    font-weight: 400;
+    font-size: 3rem;
+    @include responsive(laptop){
+        font-size: 5rem;
+        margin: 1rem;
+        width: 60%;
+    }
+}
+

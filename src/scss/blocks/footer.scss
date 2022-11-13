@@ -1,0 +1,97 @@
+@use '../mixins/responsive.scss' as *;
+@use '../mixins/hover.scss' as *;
+@use '../config/variables.scss' as *;
+
+.footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    background:url(/dist/assets/images/bg-pattern-footer-mobile.svg);
+    background-repeat: no-repeat;
+
+    &__hr{
+        width: 90%;
+        margin-bottom: 2rem;
+        @include responsive(laptop){
+            width: 100%;
+        }
+    }
+}
+
+.footer-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 2rem;
+
+    &__socials{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    @include responsive(laptop){
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
+        
+    }
+}
+
+.icon{
+    font-size: 1.5rem;
+    color: var(--dark-gray-violet);
+    &:hover{
+    @include hover {
+        color: var(--very-dark-violet);
+    }
+}
+}
+
+.footer-bottom{
+   display: flex;
+   flex-direction: column;
+   @include responsive(laptop){
+    flex-direction: row;
+    width: 100%;
+    gap: 250px;
+    align-items: center;
+    text-align: left;
+
+   }
+}
+.list-item--footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    @include responsive(laptop){
+        align-items: flex-start;
+    }
+
+}
+
+.list-item--menu{
+    margin-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    color: var(--dark-gray-violet);
+    font-weight: 400 ;
+}
+.footer-link{
+    line-height: 30px;
+    color: var(--very-dark-violet);
+    font-weight: 700;
+    &:hover{
+    @include hover {
+        text-decoration: underline;
+    }
+}
+}

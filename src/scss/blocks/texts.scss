@@ -1,0 +1,20 @@
+@use '../mixins/responsive.scss' as *;
+@use '../mixins/hover.scss' as *;
+@use '../config/variables.scss' as *;
+
+
+
+.text{
+    line-height: 30px;
+    font-weight: 400;
+    @include responsive(laptop){
+        text-align: left;
+    }
+}
+
+
+.header{
+    &__text{
+        margin-bottom: 2rem;
+    }
+}

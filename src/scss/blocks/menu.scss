@@ -1,0 +1,57 @@
+@use '../mixins/responsive.scss' as *;
+@use '../mixins/hover.scss' as *;
+@use '../config/variables.scss' as *;
+
+
+.menu{
+   display: none;
+
+    &__item{
+        display: block;
+        height: 3rem;
+        padding-top: 1rem;
+        margin-bottom: 1rem;
+       
+        @include responsive(laptop){
+           padding: 0;
+           margin: 0;
+           height: auto;
+        }
+        
+    }
+    &__img{
+        width: 100%;
+    }
+}
+.menu--show{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 96vw;
+    padding: 2rem 2rem 20rem 2rem;
+    color: white;
+    background: url(/dist/assets/images/bg-pattern-mobile-nav.svg),var(--very-dark-violet);
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    @include responsive(laptop){
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        background: none;
+        color: black;
+        width: 500px;
+        padding: 0;
+        top: 0;
+        left: 0;
+        }
+
+}
+.menu-icon{
+    
+    @include responsive(laptop){
+        display: none;
+    }
+}
