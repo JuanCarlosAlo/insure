@@ -1,4 +1,4 @@
-# Loopstudios
+# Insure
 
 ![Imagen del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/loopstudios/main/docs/assets/loop-desktop.jpeg)
 
