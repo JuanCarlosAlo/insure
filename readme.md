@@ -1,19 +1,19 @@
 # Insure
 
-![Imagen del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/loopstudios/main/docs/assets/loop-desktop.jpeg)
+![Imagen del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/insure/main/dist/assets/insure.jpg?token=GHSAT0AAAAAAB3AUGTPJCDGRP6LDMBC6T7UY4FDG4Q)
 
 ## Ejemplo en vivo
 
-- [https://github.com/JuanCarlosAlo/loopstudios](URL-de-github-pages-de-este-proyecto)
-- [https://juancarlosalo.github.io/loopstudios/](URL-de-la-api)
+- [GitHub](https://github.com/JuanCarlosAlo/insure)
+- [--](URL-de-la-api)
 
 ## Descripción 
 
-Loopstudios es una empresa que ofrece un amplio abanico de productos y servicios con una experiencia inmersiva gracias a la realidad virual.
+Insure es una empresa de seguros con un diverso catalogo de servicios disponible acorde a las necesidades de sus clientes.
 
 ## ¿Qué he aprendido en este proyecto? 
 
-En este proyecto tuve la exeriencia de hacer una galeria responsive con hover, aunque el planteamiento del posicionamiento hay que arreglarlo ya que se planteo de forma erronea en el comienzo.
+El mayor reto de esta web es la disposicion de los patrones en el fondo, añadiendo la imagen del header al inicio.
 
 ## Tecnologías 
 
@@ -29,15 +29,15 @@ Si quieres echar un vistazo al proyecto, te recomiendo:
 
 ## Ordenador
 
-![Captura del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/loopstudios/main/docs/assets/images/read-me-img-1.jpg)
+![Captura del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/insure/main/dist/assets/read-me-img-1.jpg?token=GHSAT0AAAAAAB3AUGTOEVT5L537CFY2CFC6Y4FDDTA)
 
 ## Estados activos
 
-![Captura del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/loopstudios/main/docs/assets/images/read-me-img-2.jpg)
+![Captura del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/insure/main/dist/assets/read-me-img-2.jpg?token=GHSAT0AAAAAAB3AUGTPWRUBREYIXUT6KTO2Y4FDDUQ)
 
 ## Movil
 
-![Captura del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/loopstudios/main/docs/assets/images/read-me-img-3.jpg)
+![Captura del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/insure/main/dist/assets/read-me-img-3.jpg?token=GHSAT0AAAAAAB3AUGTPNXKHBSNSWY6VVJVCY4FDDWA)
 
 ## Autor 
 
