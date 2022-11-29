@@ -12,7 +12,7 @@ Insure es una empresa de seguros con un diverso catalogo de servicios disponible
 
 ## ¿Qué he aprendido en este proyecto?
 
-El mayor reto de esta web es la disposicion de los patrones en el fondo, añadiendo la imagen del header al inicio.
+El mayor reto de esta web es la disposicion de los patrones en el fondo, añadiendo la imagen del header al inicio con background-position. Ademas de seguir practicando con sass y javascript.
 
 ## Tecnologías
 
