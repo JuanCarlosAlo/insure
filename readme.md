@@ -1,6 +1,6 @@
 # Insure
 
-![Imagen del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/insure/main/dist/assets/insure.jpg?token=GHSAT0AAAAAAB3CIA6AQJTXJUSUZ6SGVTC2Y4F5PWQ)
+![Imagen del proyecto](https://github.com/JuanCarlosAlo/insure/blob/main/docs/assets/insure.jpg?raw=true)
 
 ## Ejemplo en vivo
 
@@ -29,15 +29,15 @@ Si quieres echar un vistazo al proyecto, te recomiendo:
 
 ## Ordenador
 
-![Captura del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/insure/main/dist/assets/read-me-img-1.jpg?token=GHSAT0AAAAAAB3CIA6BB573NOF2LOILFY4IY4F5OYQ)
+![Captura del proyecto](https://github.com/JuanCarlosAlo/insure/blob/main/docs/assets/read-me-img-1.jpg?raw=true)
 
 ## Estados activos
 
-![Captura del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/insure/main/dist/assets/read-me-img-2.jpg?token=GHSAT0AAAAAAB3CIA6BPVIW5C4DISRIYU4IY4F5O2A)
+![Captura del proyecto](https://github.com/JuanCarlosAlo/insure/blob/main/docs/assets/read-me-img-2.jpg?raw=true)
 
 ## Movil
 
-![Captura del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/insure/main/dist/assets/read-me-img-3.jpg?token=GHSAT0AAAAAAB3CIA6BTT62XVZUZWRGYHXUY4F5O3Q)
+![Captura del proyecto](https://github.com/JuanCarlosAlo/insure/blob/main/docs/assets/read-me-img-3.jpg?raw=true)
 
 ## Autor
 
