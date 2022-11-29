@@ -4,8 +4,7 @@
 
 ## Ejemplo en vivo
 
-- [GitHub](https://github.com/JuanCarlosAlo/insure)
-- [--](URL-de-la-api)
+- [GitHub](https://juancarlosalo.github.io/insure/)
 
 ## Descripción
 
