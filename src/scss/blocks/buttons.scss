@@ -1,62 +1,58 @@
-@use '../mixins/responsive.scss' as *;
-@use '../mixins/hover.scss' as *;
-@use '../config/variables.scss' as *;
+@use "../mixins/responsive.scss" as *;
+@use "../mixins/hover.scss" as *;
+@use "../config/variables.scss" as *;
 
-.header{
-    &__button{
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        height: 3rem;
-        width: 170px;
-        padding-top: 0.75rem;
-        border:solid white;
-        &:hover{
-            @include hover {
-                border: none;
-                color: var(--very-dark-violet);
-                background-color: var(--light-gray);
-            }
-        }
-        @include responsive(laptop){
-            margin: 0;
-        }
-    }
-}
-.view-button {
-    font-weight: 600;
+.header {
+  &__button {
+    margin-left: auto;
+    margin-right: auto;
     display: block;
     height: 3rem;
+    width: 170px;
     padding-top: 0.75rem;
-    border: solid var(--light-gray);
-    
-    @include responsive(laptop){
+    border: solid white;
+    &:hover {
+      @include hover {
+        color: var(--very-dark-violet);
+        background-color: var(--light-gray);
+      }
+    }
+    @include responsive(laptop) {
+      margin: 0;
+    }
+  }
+}
+.view-button {
+  font-weight: 600;
+  display: block;
+  height: 3rem;
+  padding-top: 0.75rem;
+  border: solid var(--light-gray);
+
+  @include responsive(laptop) {
     display: block;
     padding: 0.75rem 2rem;
     border: solid var(--very-dark-violet);
-    &:hover{
-        @include hover {
-            border: none;
-            color: var(--light-gray);
-            background-color: var(--dark-violet);
-        }
+    &:hover {
+      @include hover {
+        color: var(--light-gray);
+        background-color: var(--dark-violet);
+      }
     }
-}
+  }
 }
 
-.background-button{
-    font-weight: 600;
-    display: block;
-    height: 3rem;
-    padding-top: 0.75rem;
-    border: solid var(--light-gray);
-    width: 200px;
-    &:hover{
-        @include hover {
-            border: none;
-            color: var(--very-dark-violet);
-            background-color: var(--light-gray);
-        }
+.background-button {
+  font-weight: 600;
+  display: block;
+  height: 3rem;
+  padding-top: 0.75rem;
+  border: solid var(--light-gray);
+  width: 200px;
+  &:hover {
+    @include hover {
+      color: var(--very-dark-violet);
+      background-color: var(--light-gray);
     }
-    
+  }
 }

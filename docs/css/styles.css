@@ -458,7 +458,6 @@ body {
 }
 @media (hover: hover) {
   .header__button:hover {
-    border: none;
     color: var(--very-dark-violet);
     background-color: var(--light-gray);
   }
@@ -485,7 +484,6 @@ body {
 }
 @media screen and (min-width: 1024px) and (hover: hover) {
   .view-button:hover {
-    border: none;
     color: var(--light-gray);
     background-color: var(--dark-violet);
   }
@@ -501,7 +499,6 @@ body {
 }
 @media (hover: hover) {
   .background-button:hover {
-    border: none;
     color: var(--very-dark-violet);
     background-color: var(--light-gray);
   }
@@ -509,14 +506,14 @@ body {
 
 .header {
   position: relative;
-  background: url(/dist/assets/images/bg-pattern-intro-left-mobile.svg) var(--dark-violet);
+  background: url(assets/images/bg-pattern-intro-left-mobile.svg) var(--dark-violet);
   background-repeat: no-repeat;
   background-position: 0px 530px, 0;
   color: var(--light-gray);
 }
 @media screen and (min-width: 1024px) {
   .header {
-    background: url(/dist/assets/images/bg-pattern-intro-right-desktop.svg) var(--dark-violet);
+    background: url(assets/images/bg-pattern-intro-right-desktop.svg) var(--dark-violet);
     background-repeat: no-repeat;
     background-position: 1100px;
   }
@@ -561,7 +558,7 @@ body {
   width: 124px;
   right: 0;
   top: 900px;
-  background: url(/dist/assets/images/bg-pattern-intro-right-mobile.svg);
+  background: url(assets/images/bg-pattern-intro-right-mobile.svg);
 }
 @media screen and (min-width: 1024px) {
   .header__background-overflow {
@@ -569,7 +566,7 @@ body {
     width: 195px;
     left: -50px;
     top: 500px;
-    background: url(/dist/assets/images/bg-pattern-intro-left-desktop.svg);
+    background: url(assets/images/bg-pattern-intro-left-desktop.svg);
   }
 }
 
@@ -599,7 +596,7 @@ body {
   padding-bottom: 4rem;
   padding-left: 6rem;
   padding-right: 6rem;
-  background: url(/dist/assets/images/bg-pattern-footer-mobile.svg);
+  background: url(assets/images/bg-pattern-footer-mobile.svg);
   background-repeat: no-repeat;
 }
 .footer__hr {
@@ -729,7 +726,7 @@ body {
   width: 96vw;
   padding: 2rem 2rem 20rem 2rem;
   color: white;
-  background: url(/dist/assets/images/bg-pattern-mobile-nav.svg), var(--very-dark-violet);
+  background: url(assets/images/bg-pattern-mobile-nav.svg), var(--very-dark-violet);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -815,7 +812,7 @@ body {
   flex-direction: column;
   align-items: center;
   color: var(--light-gray);
-  background: url(/dist/assets/images/bg-pattern-intro-right-desktop.svg) var(--dark-violet);
+  background: url(assets/images/bg-pattern-intro-right-desktop.svg) var(--dark-violet);
   background-repeat: no-repeat;
   background-size: 90%;
   background-position: 160px -100px;
