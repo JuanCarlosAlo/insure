@@ -1,21 +1,21 @@
 # Insure
 
-![Imagen del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/insure/main/dist/assets/insure.jpg?token=GHSAT0AAAAAAB3AUGTPJCDGRP6LDMBC6T7UY4FDG4Q)
+![Imagen del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/insure/main/dist/assets/insure.jpg?token=GHSAT0AAAAAAB3CIA6AGLNHQPVCT5OQ3IHUY4F5KNQ)
 
 ## Ejemplo en vivo
 
 - [GitHub](https://github.com/JuanCarlosAlo/insure)
 - [--](URL-de-la-api)
 
-## Descripción 
+## Descripción
 
 Insure es una empresa de seguros con un diverso catalogo de servicios disponible acorde a las necesidades de sus clientes.
 
-## ¿Qué he aprendido en este proyecto? 
+## ¿Qué he aprendido en este proyecto?
 
 El mayor reto de esta web es la disposicion de los patrones en el fondo, añadiendo la imagen del header al inicio.
 
-## Tecnologías 
+## Tecnologías
 
 <!-- Iconos sacados de: https://github.com/hendrasob/badges/blob/master/README.md y https://github.com/alexandresanlim/Badges4-README.md-Profile -->
 
@@ -29,18 +29,17 @@ Si quieres echar un vistazo al proyecto, te recomiendo:
 
 ## Ordenador
 
-![Captura del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/insure/main/dist/assets/read-me-img-1.jpg?token=GHSAT0AAAAAAB3AUGTOEVT5L537CFY2CFC6Y4FDDTA)
+![Captura del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/insure/main/dist/assets/read-me-img-1.jpg?token=GHSAT0AAAAAAB3CIA6APAKY2QLASDTRVABKY4F5F7Q)
 
 ## Estados activos
 
-![Captura del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/insure/main/dist/assets/read-me-img-2.jpg?token=GHSAT0AAAAAAB3AUGTPWRUBREYIXUT6KTO2Y4FDDUQ)
+![Captura del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/insure/main/dist/assets/read-me-img-2.jpg?token=GHSAT0AAAAAAB3CIA6AUQKTAJXUMXZ335W4Y4F5G3A)
 
 ## Movil
 
-![Captura del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/insure/main/dist/assets/read-me-img-3.jpg?token=GHSAT0AAAAAAB3AUGTPNXKHBSNSWY6VVJVCY4FDDWA)
+![Captura del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/insure/main/dist/assets/read-me-img-2.jpg?token=GHSAT0AAAAAAB3CIA6BRYRGWW6HI2PTPZ6QY4F5GJA)
 
-## Autor 
-
+## Autor
 
 - [Email](juancarlosam@gmail.com)
 - [Linkedin](https://www.linkedin.com/in/juan-carlos-alonso-966280166/)
@@ -50,7 +49,7 @@ Si quieres echar un vistazo al proyecto, te recomiendo:
 
 Este proyecto no necesita de instalación. Simplemente abre la carpeta o haz doble click en el .html
 
-## Licencia 
+## Licencia
 
 MIT Public License v3.0
 No puede usarse comencialmente.
