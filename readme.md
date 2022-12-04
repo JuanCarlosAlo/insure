@@ -42,7 +42,7 @@ Si quieres echar un vistazo al proyecto, te recomiendo:
 ## Autor 
 
 
-- [Email](juancarlosam@gmail.com)
+- Email: juancarlosam@gmail.com
 - [Linkedin](https://www.linkedin.com/in/juan-carlos-alonso-966280166/)
 - [GitHub]([https://github.com/JuanCarlosAlo)
 
