@@ -1,86 +1,81 @@
-@use '../mixins/responsive.scss' as *;
-@use '../mixins/hover.scss' as *;
-@use '../config/variables.scss' as *;
+@use "../mixins/responsive.scss" as *;
+@use "../mixins/hover.scss" as *;
+@use "../config/variables.scss" as *;
 
-.header{
-    position: relative;
-    background: url(/dist/assets/images/bg-pattern-intro-left-mobile.svg) var(--dark-violet);
+.header {
+  position: relative;
+  background: url(assets/images/bg-pattern-intro-left-mobile.svg)
+    var(--dark-violet);
+  background-repeat: no-repeat;
+  background-position: 0px 530px, 0;
+  color: var(--light-gray);
+  @include responsive(laptop) {
+    background: url(assets/images/bg-pattern-intro-right-desktop.svg)
+      var(--dark-violet);
     background-repeat: no-repeat;
-    background-position: 0px 530px, 0;
-    color: var(--light-gray);
-    @include responsive(laptop){
-        background: url(/dist/assets/images/bg-pattern-intro-right-desktop.svg)var(--dark-violet);
-        background-repeat: no-repeat;
-        background-position: 1100px;
-        
-    }
+    background-position: 1100px;
+  }
 
+  &__info {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    @include responsive(laptop) {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 50%;
+      padding-bottom: 8rem;
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
+  }
 
-    &__info{
-        padding-top: 4rem;
-        padding-bottom: 4rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        @include responsive(laptop){
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            width: 50%;
-            padding-bottom: 8rem;
-            padding-left: 4rem;
-        padding-right: 4rem;
-        }
+  &__hr {
+    display: none;
+    @include responsive(laptop) {
+      display: block;
+      width: 150px;
+      margin-left: 0;
+      margin-bottom: 2rem;
     }
-    
-    &__hr{
-        display: none;
-        @include responsive(laptop){
-            display: block;
-            width: 150px;
-            margin-left: 0;
-            margin-bottom: 2rem;
-    }
+  }
 
+  &__img {
+    @include responsive(laptop) {
+      position: absolute;
+      top: 170px;
     }
+  }
+  &__background-overflow {
+    position: absolute;
+    height: 330px;
+    width: 124px;
+    right: 0;
+    top: 900px;
+    background: url(assets/images/bg-pattern-intro-right-mobile.svg);
 
-    &__img{
-        @include responsive(laptop){
-            position: absolute;
-            top: 170px;
-           
-        }
+    @include responsive(laptop) {
+      height: 504px;
+      width: 195px;
+      left: -50px;
+      top: 500px;
+      background: url(assets/images/bg-pattern-intro-left-desktop.svg);
     }
-    &__background-overflow{
-        position: absolute;
-        height: 330px ;
-        width: 124px ;
-        right: 0;
-        top: 900px;
-        background: url(/dist/assets/images/bg-pattern-intro-right-mobile.svg);
-    
-        @include responsive(laptop){
-            height: 504px ;
-            width: 195px ;
-            left: -50px;
-            top: 500px;
-            background: url(/dist/assets/images/bg-pattern-intro-left-desktop.svg);
-        }
-    }
+  }
 }
 
-    
-
-.header-top{
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: white;
-    padding-left: 2rem ;
-    padding-right: 2rem;
-    @include responsive(laptop){
-        padding-left: 4rem;
-        padding-right: 4rem;
-    }
-
+.header-top {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  @include responsive(laptop) {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
 }
